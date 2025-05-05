@@ -153,8 +153,8 @@ retakeBtn.addEventListener("click", () => {
     showQuestion();
 });
 
-// ✅ Attach event listener to Start button
+
 startBtn.addEventListener("click", startQuiz);
 
-// ❌ DO NOT call showQuestion() globally!
+
 
