@@ -3,63 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Football Quiz</title>
+    <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
 
-    <div class="quiz-container">
-        <h1>Football quiz</h1>
-        <div class="timer">Time left: 15 seconds</div>
-        <h2 class="question">Which country was Cristiano Ronaldo born? </h2>
-        <div class="options">
-        <button class="option">Spain</button>
-        <button class="option">Portugal</button>
-        <button class="option">Brazil</button>
-        <button class="option">Sri Lanka</button>
-        </div>
-        <button class="next-btn">Next</button>
-        </div>
-    <script src="main.js"></script>
-    </div>
-
-     <div class="quiz-result">
-    <h2>You have scored ? out of 5.</h2>
-
-    <div class="question-container incorrect">
-      <div class="question">Which country was Cristiano Ronaldo born?</div>
-      <div class="user-answer">Your answer: Spain</div>
-      <div class="correct-answer">Correct answer: Portugal</div>
-    </div>
-
-    <div class="question-container">
-      <div class="question">Who won the english Premier League season 24/25?</div>
-      <div class="user-answer">Your answer: Manchester United</div>
-      <div class="correct-answer">Correct answer: Liverpool</div>
-    </div>
-
-    <div class="question-container incorrect">
-      <div class="question">Who has won the most Champions League titles?</div>
-      <div class="user-answer">Your answer: Barcelona</div>
-      <div class="correct-answer">Correct answer: Real Madrid</div>
-    </div>
-
-    <div class="question-container">
-      <div class="question">What is Fernando Torres nickname?</div>
-      <div class="user-answer">Your answer: El maestro</div>
-      <div class="correct-answer">Correct answer: El Nino</div>
-    </div>
-
-    <div class="question-container">
-      <div class="question">In wich city was Zlatan Ibrahmimovic born?</div>
-      <div class="user-answer">Your answer: Malmo</div>
-      <div class="correct-answer">Correct answer: Malmo</div>
-    </div>
-
-    <button class="retake-btn">Retake Quiz</button>
+  <div class="start-screen" id="start-screen">
+    <h1>Hi and welcome to the Football Quiz!</h1>
+    <button class="start-btn" onclick="startQuiz()">Start Quiz</button>
   </div>
 
-  <script src="main.js"></script>
-    
-</body>
-</html>
+  
+  <div class="quiz-container" id="quiz-container" style="display: none;">
+    <h1>Football Quiz</h1>
+    <div class="timer" id="timer">Time left: 15 seconds</div>
+    <h2 class="question"></h2>
+    <div class="options"></div>
+    <button class="next-btn" style="display: none;">Next</button>
+  </div>
