@@ -1,0 +1,24 @@
+.DS_Store
+Thumbs.db
+
+# Node.js (if used in future)
+node_modules/
+
+*.log
+
+.env
+
+.vscode/
+.idea/
+
+*.cache
+dist/
+build/
+
+# MacOS/Linux backup files
+*.swp
+*.bak
+*~
+
+*.min.js
+*.min.css
