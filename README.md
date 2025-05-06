@@ -9,12 +9,12 @@ Designed to both entertain and inform, the quiz tested participants' understandi
 
 ## User Experience UX
 
--The Football Quiz is designed to provide users with a smooth, interactive, and engaging quiz experience centered around football knowledge. Here is how the users interact with the game:
+The Football Quiz is designed to provide users with a smooth, interactive, and engaging quiz experience centered around football knowledge. Here is how the users interact with the game:
 
 - __Welcome & Start__
 
   - Upon visiting the page, users are welcomed with a friendly greeting and a Start Quiz button.
-     I used clean and centered layout to draw immediate attention to the quiz without distractions.
+    I used clean and centered layout to draw immediate attention to the quiz without distractions.
 
 - __Quiz Flow__
 
@@ -33,10 +33,9 @@ Designed to both entertain and inform, the quiz tested participants' understandi
 
   - At the end of the quiz, users see:
 
-- __Their total score__
-
+  - Their total score.
   - A detailed breakdown of each question, what they answered and the correct answer.
-  - Color-coded backgrounds for correct/incorrect responses
+  - Color-coded backgrounds for correct/incorrect responses.
 
 - __Retake Option__
 
