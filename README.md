@@ -13,38 +13,38 @@ Designed to both entertain and inform, the quiz tested participants' understandi
 
 - __Welcome & Start__
 
--Upon visiting the page, users are welcomed with a friendly greeting and a Start Quiz button.
- I used clean and centered layout to draw immediate attention to the quiz without distractions.
+- Upon visiting the page, users are welcomed with a friendly greeting and a Start Quiz button.
+  I used clean and centered layout to draw immediate attention to the quiz without distractions.
 
 - __Quiz Flow__
 
--The quiz presents one question at a time to avoid overwhelming users.
--A 15-second countdown timer adds excitement and encourages quick thinking.
--Users choose from four options per question, and the correct answer is highlighted after selection, providing instant feedback.
+- The quiz presents one question at a time to avoid overwhelming users.
+- A 15-second countdown timer adds excitement and encourages quick thinking.
+- Users choose from four options per question, and the correct answer is highlighted after selection, providing instant feedback.
 
 - __Visual Feedback__
 
--Answers are color-coded:
- Green for correct answers
- Red for incorrect answers
--Disabled buttons after selection prevent accidental changes.
+- Answers are color-coded:
+  Green for correct answers
+  Red for incorrect answers
+- Disabled buttons after selection prevent accidental changes.
 
 - __Results Summary__
 
--At the end of the quiz, users see:
+- At the end of the quiz, users see:
 
 - __Their total score__
 
--A detailed breakdown of each question, what they answered and the correct answer.
--Color-coded backgrounds for correct/incorrect responses
+- A detailed breakdown of each question, what they answered and the correct answer.
+- Color-coded backgrounds for correct/incorrect responses
 
 - __Retake Option__
 
--Users can easily retake the quiz with a single click, allowing for repeated engagement and learning.
+- Users can easily retake the quiz with a single click, allowing for repeated engagement and learning.
 
 - __Design & Accessibility__
 
--The layout is responsive and works across different screen sizes.
--Background image and font choices provide a sporty, immersive atmosphere.
--Clear button labels and sufficient contrast ensure accessibility for most users.
+- The layout is responsive and works across different screen sizes.
+- Background image and font choices provide a sporty, immersive atmosphere.
+- Clear button labels and sufficient contrast ensure accessibility for most users.
 
