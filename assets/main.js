@@ -23,6 +23,31 @@ const quizData = [
         question: "In which city was Zlatan Ibrahimovic born?",
         options: ["Malmo", "Stockholm", "Sarajevo", "Milan"],
         correct: "Malmo",
+    },
+     {
+        question: "Which national team does Kylian Mbappe play for?",
+        options: ["Argentina", "Jamaica", "Brazil", "France"],
+        correct: "France",
+    },
+    {
+        question: "What colors are associated with AC Milan?",
+        options: ["Red and black", "White and red", "Blue and black", "Red and blue"],
+        correct: "Red and black",
+    },
+    {
+        question: "How many times have Arsenal won the champions league?",
+        options: ["1", "2", "3", "0"],
+        correct: "0",
+    },
+    {
+        question: "With 260 goals, who is the all-time top scorer in the Premier League?",
+        options: ["Thierry Henry", "Wayne Rooney", "Cristiano Ronaldo", "Alan Shearer"],
+        correct: "Alan Shearer",
+    },
+    {
+        question: "Which player, with 653 games, has made the most Premier League appearances?",
+        options: ["Ryan Giggs", "Gareth Barry", "David Beckham", "Michael Owen"],
+        correct: "Gareth Barry",
     }
 ];
 
