@@ -142,13 +142,12 @@ nextButton.addEventListener("click", () => {
 function showResults() {
     quizContainer.style.display = "none";
     resultContainer.style.display = "flex";
-    resultContainer.innerHTML = '';
 
     const score = userAnswers.filter((ans, i) => ans === quizData[i].correct).length;
+    document.getElementById("score").textContent = score;
 
-    const scoreElement = document.createElement("h2");
-    scoreElement.textContent = `You have scored ${score} out of ${quizData.length}.`;
-    resultContainer.appendChild(scoreElement);
+    const resultsContainer = document.getElementById("results-container");
+    resultsContainer.innerHTML = ''; // Clear previous results if any
 
     quizData.forEach((questionData, index) => {
         const userAnswer = userAnswers[index] || 'Not answered';
@@ -163,10 +162,10 @@ function showResults() {
             <div class="correct-answer">Correct answer: ${questionData.correct}</div>
         `;
 
-        resultContainer.appendChild(questionContainer);
+        resultsContainer.appendChild(questionContainer);
     });
 
-    retakeBtn.style.display = "block";
+    document.querySelector(".retake-btn").style.display = "block";
 }
 
 retakeBtn.addEventListener("click", () => {
