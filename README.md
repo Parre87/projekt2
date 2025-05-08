@@ -51,7 +51,7 @@ The Football Quiz is designed to provide users with a smooth, interactive, and e
 
 - __HTML validator__
 
-The HTML for this project was validated using the Nu HTML Checker. The validation was performed by submitting the deployed site URL: https://parre87.github.io/projekt2/. The checker reported one warning: Empty heading: An "<h2>" tag with class question was found with no content (<h2 class="question"></h2>), which is not semantically meaningful.
+The HTML for this project was validated using the Nu HTML Checker. The validation was performed by submitting the deployed site URL: https://parre87.github.io/projekt2/. The checker reported one warning (see picture below).
 
 This warning indicates a structural issue that could affect accessibility or SEO. To resolve the issue is to add a meaningful content inside the heading or removing the empty tag.
 
@@ -65,7 +65,7 @@ This ensures better browser compatibility, improved maintainability, and adheren
 
 ![CSS validator](https://github.com/Parre87/projekt2/blob/main/assets/images/cssvalidator.png)
 
-- __JShint new and old vesrsion__
+- __JShint new and old version__
 
 The JavaScript code in this project was analyzed using JSHint. The analysis revealed first that the file contains 35 warnings, all related to the use of const, which is only supported in ES6 or newer environments. This is before update
 
