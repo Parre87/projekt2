@@ -50,6 +50,7 @@ The Football Quiz is designed to provide users with a smooth, interactive, and e
 ## Testing
 
 - __HTML validator__
+
 The HTML for this project was validated using the Nu HTML Checker. The validation was performed by submitting the deployed site URL: https://parre87.github.io/projekt2/. The checker reported one warning: Empty heading: An "<h2>" tag with class question was found with no content (<h2 class="question"></h2>), which is not semantically meaningful.
 
 This warning indicates a structural issue that could affect accessibility or SEO. To resolve the issue is to add a meaningful content inside the heading or removing the empty tag.
@@ -57,9 +58,22 @@ This warning indicates a structural issue that could affect accessibility or SEO
 ![HTML Validator](https://github.com/Parre87/projekt2/blob/main/assets/images/htmlvalidator.png)
 
 - __CSS validator__
+
 The CSS used in this project has been tested with the W3C CSS Validation Service. My deployed site (https://parre87.github.io/projekt2/) passed validation with no errors, confirming that the stylesheet conforms to CSS Level 3 + SVG standards.
 
 This ensures better browser compatibility, improved maintainability, and adherence to web development best practices.
 
-![HTML Validator](https://github.com/Parre87/projekt2/blob/main/assets/images/cssvalidator.png)
+![CSS validator](https://github.com/Parre87/projekt2/blob/main/assets/images/cssvalidator.png)
+
+- __JShint new and old vesrsion__
+
+The JavaScript code in this project was analyzed using JSHint. The analysis revealed first that the file contains 35 warnings, all related to the use of const, which is only supported in ES6 or newer environments. This is before update
+
+![JShint](https://github.com/Parre87/projekt2/blob/main/assets/images/jshintoldversion.png)
+
+And after updating jshint to esversion: 6 it shows 0 warnings.
+
+![JShint](https://github.com/Parre87/projekt2/blob/main/assets/images/jshint.png)
+
+JShint was using during the project to detect errors and potential problems in JavaScript code.
 
