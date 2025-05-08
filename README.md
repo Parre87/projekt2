@@ -49,10 +49,8 @@ The Football Quiz is designed to provide users with a smooth, interactive, and e
 
 ## Testing
 
-The HTML for this project was validated using the Nu HTML Checker. The validation was performed by submitting the deployed site URL: https://parre87.github.io/projekt2/. The checker reported one warning:
+The HTML for this project was validated using the Nu HTML Checker. The validation was performed by submitting the deployed site URL: https://parre87.github.io/projekt2/. The checker reported one warning: Empty heading: An <h2> tag with class question was found with no content (<h2 class="question"></h2>), which is not semantically meaningful.
 
-Empty heading: An <h2> tag with class question was found with no content (<h2 class="question"></h2>), which is not semantically meaningful and should be avoided.
-
-This warning indicates a structural issue that could affect accessibility or SEO. To resolve it, consider adding meaningful content inside the heading or removing the empty tag.
+This warning indicates a structural issue that could affect accessibility or SEO. To resolve the issue is to add a meaningful content inside the heading or removing the empty tag.
 
 ![HTML Validator](https://github.com/Parre87/projekt2/blob/main/assets/images/htmlvalidator.png)
