@@ -138,7 +138,7 @@ In building "Football quiz", I've utilised a combination of languages and tools 
    inspiration for some layout aspects of the project.
   
    - Media
-   The background picture of the football field in the quiz is from [!Visit Website] (assets/images/football.avif)(https://www.freepik.com/free-vector/vector-green-soccer-field-football-field-gridiron_10600327.htm#fromView=keyword&page=1&position=3&uuid=7e38c5db-c816-4888-abf9-b2b532cb23bb&query=Football+Field+Background)
+   The background picture of the football field in the quiz is from [![Visit Website](assets/images/football.avif)](https://www.freepik.com/free-vector/vector-green-soccer-field-football-field-gridiron_10600327.htm#fromView=keyword&page=1&position=3&uuid=7e38c5db-c816-4888-abf9-b2b532cb23bb&query=Football+Field+Background)
 
    - Mentor Spencer Barriball who helped me with tips, guidance and finding errors during the project.
 
