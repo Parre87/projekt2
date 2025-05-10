@@ -43,13 +43,13 @@ The Football Quiz is designed to provide users with a smooth, interactive, and e
   - A detailed breakdown of each question, what they answered and the correct answer.
   - Color-coded backgrounds for correct/incorrect responses.
  
-    ![Result page](https://github.com/Parre87/projekt1/blob/main/assets/images/resultpage.png)
+    ![Result page](https://github.com/Parre87/projekt2/blob/main/assets/images/resultpage.png)
 
 - __Retake Option__
 
   - Users can easily retake the quiz with a single click, allowing for repeated engagement and learning.
 
-   ![Result page2](https://github.com/Parre87/projekt1/blob/main/assets/images/resultpage2.png)
+   ![Result page2](https://github.com/Parre87/projekt2/blob/main/assets/images/resultpage2.png)
 
 - __Design & Accessibility__
 
