@@ -8,12 +8,12 @@
 </head>
 <body>
 
- /**
+ <!--
  * Start Screen
  * This represents the start screen of the Football Quiz application.
  * It contains a welcoming heading and a button to initiate the quiz.
  * When the "Start Quiz" button is clicked, the `startQuiz()` function is triggered.
- */
+ */-->
 
   <div class="start-screen" id="start-screen">
     <h1>Hi and welcome to the Football Quiz!</h1>
@@ -21,13 +21,13 @@
   </div>
 
 
-/**
+ <!--
  * Quiz Container Section 
  * This holds the main quiz interface, initially hidden using `display: none.
  * - Displays the quiz title and a countdown timer.
  * - Dynamically loads each question and its answer options.
  * - Includes a "Next" button to proceed to the following question.
- */
+ */ -->
  
     <div class="quiz-container" id="quiz-container" style="display: none;">
     <h1>Football Quiz</h1>
@@ -44,7 +44,7 @@
     <button class="retake-btn" onclick="retakeQuiz()">Retake Quiz</button>
     </div>
 
- /**
+ <!--
  * Quiz Result Section
  * This displays the final results after the quiz is completed. It is hidden by default.
  * - Shows the user's score out of 10.
@@ -53,9 +53,8 @@
  * - .question: Displays the quiz question text.
  * - .user-answer`: Shows the answer selected by the user.
  * - .correct-answer`: Displays the correct answer for comparison.
- * 
  * These containers are intended to provide a detailed breakdown of the user's performance question-by-question.
- */
+  -->
     
  <div class="quiz-result" style="display: none;">
  <h2>You have scored <span id="score1">0</span> out of 5.</h2>
