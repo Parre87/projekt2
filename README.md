@@ -77,3 +77,13 @@ And after updating jshint to esversion: 6 it shows 0 warnings.
 
 JShint was using during the project to detect errors and potential problems in JavaScript code.
 
+## Google Lighthouse 
+
+![JShint](https://github.com/Parre87/projekt2/blob/main/assets/images/lighthousestartpage.png)
+
+- Performance is 100%. 
+- Accessibility is at 100% . 
+- Best practices is 100%
+- SEO is 90%. Documents do not have Meta discription which lower the score.
+
+
