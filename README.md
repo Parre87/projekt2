@@ -16,11 +16,15 @@ The Football Quiz is designed to provide users with a smooth, interactive, and e
   - Upon visiting the page, users are welcomed with a friendly greeting and a Start Quiz button.
     I used clean and centered layout to draw immediate attention to the quiz without distractions.
 
+    ![Start page](https://github.com/Parre87/projekt2/blob/main/assets/images/startpage.png)
+
 - __Quiz Flow__
 
   - The quiz presents one question at a time to avoid overwhelming users.
   - A 15-second countdown timer adds excitement and encourages quick thinking.
-  - Users choose from four options per question, and the correct answer is highlighted after selection, providing instant feedback.
+  - Users choose from four options per question, and the correct answer is highlighted after selection, providing instant 
+    feedback.
+    
 
 - __Visual Feedback__
 
@@ -28,6 +32,8 @@ The Football Quiz is designed to provide users with a smooth, interactive, and e
     Green for correct answers
     Red for incorrect answers
   - Disabled buttons after selection prevent accidental changes.
+ 
+    ![Quiz page](https://github.com/Parre87/projekt2/blob/main/assets/images/quizpage.png)
 
 - __Results Summary__
 
@@ -36,10 +42,14 @@ The Football Quiz is designed to provide users with a smooth, interactive, and e
   - Their total score.
   - A detailed breakdown of each question, what they answered and the correct answer.
   - Color-coded backgrounds for correct/incorrect responses.
+ 
+    ![Result page](https://github.com/Parre87/projekt1/blob/main/assets/images/resultpage.png)
 
 - __Retake Option__
 
   - Users can easily retake the quiz with a single click, allowing for repeated engagement and learning.
+
+   ![Result page2](https://github.com/Parre87/projekt1/blob/main/assets/images/resultpage2.png)
 
 - __Design & Accessibility__
 
