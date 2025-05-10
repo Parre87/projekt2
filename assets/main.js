@@ -1,3 +1,13 @@
+/**
+ * quizData Array
+ * This array holds the questions, options, and correct answers for the football quiz.
+ * Each object in the array represents one quiz question and contains:
+ * - question`: The text of the question being asked.
+ * - options`: An array of multiple choice answers for the user to select from.
+ * - correct`: The correct answer to the question.
+ * The quiz includes 10 questions related to football (soccer), covering topics such as players, teams, and achievements.
+ */
+
 const quizData = [
     {
         question: "Which country was Cristiano Ronaldo born?",
@@ -51,6 +61,21 @@ const quizData = [
     }
 ];
 
+/**
+ * Quiz Functionality
+ * 
+ * - Selects necessary DOM elements for the quiz interface such as the quiz container, result container, timer, buttons, etc.
+ * - Initializes variables to manage quiz state:
+ *   - timeLeft: Sets the countdown timer to 15 seconds.
+ *   - timerInterval: Stores the interval reference for updating the timer.
+ *   - currentQuestionIndex: Tracks the current question being displayed.
+ *   - `userAnswers`: Stores the user's answers to each question.
+ * 
+ * startQuiz() function:
+ * - Hides the start screen, shows the quiz container, and hides the result container when the quiz begins.
+ * - Resets the quiz state (question index and user answers) for each new quiz attempt.
+ * - Calls showQuestion() to display the first question.
+ */
 const quizContainer = document.querySelector(".quiz-container");
 const resultContainer = document.querySelector(".quiz-result");
 const timerElement = document.querySelector(".timer");
@@ -74,6 +99,15 @@ function startQuiz() {
     showQuestion();
 }
 
+/**
+ * showQuestion Function
+ * - Displays the current question and its multiple choice options.
+ * - Selects the current question object from the quizData array based on the current index (currentQuestionIndex).
+ * - Sets the question text to the .question element.
+ * - Clears any previous options and dynamically creates buttons for each option.
+ * - Each option button is attached with a click event listener that calls selectAnswer() when clicked, passing the selected option.
+ * - Calls startTimer() to begin the countdown for the current question.
+ */
 function showQuestion() {
     const currentQuestion = quizData[currentQuestionIndex];
     const questionElement = document.querySelector(".quiz-container .question");
@@ -110,6 +144,19 @@ function startTimer() {
         }
     }, 1000);
 }
+
+
+/**
+ * selectAnswer Function
+ * - Handles the selection of an answer for the current question.
+ * - Stores the user's selected answer in the userAnswers array at the index of the current question.
+ *   If no answer is selected (exemple, the user runs out of time), stores "Not answered".
+ * - Disables all option buttons to prevent further interaction once an answer is selected.
+ * - Highlights the correct and incorrect answers by adding respective classes to the options:
+ *   - Adds a .correct class to the correct answer.
+ *   - Adds an .incorrect class to all wrong answers.
+ * - Displays the "Next" button for the user to move to the next question.
+ */
 
 function selectAnswer(answer) {
     userAnswers[currentQuestionIndex] = answer || 'Not answered';
@@ -164,9 +211,17 @@ function showResults() {
 
         resultsContainer.appendChild(questionContainer);
     });
-
+ 
     document.querySelector(".retake-btn").style.display = "block";
 }
+
+/**
+ * Event listener for the "Retake Quiz" button
+ * - Resets the quiz to its initial state when the user clicks the "Retake Quiz" button.
+ * - Resets the currentQuestionIndex to 0 and clears the userAnswers array to start fresh.
+ * - Hides the result container, makes the quiz container visible again, and hides the "Retake Quiz" button.
+ * - Calls showQuestion() to display the first question of the quiz.
+ */
 
 retakeBtn.addEventListener("click", () => {
     currentQuestionIndex = 0;
