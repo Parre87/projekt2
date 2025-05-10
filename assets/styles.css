@@ -1,3 +1,13 @@
+
+/**
+ * Body Styling
+ * - Sets the font to Times New Roman for a classic, readable appearance.
+ * - Applies a background image (football.avif) that:
+ *   - Covers the entire viewport without repeating
+ *   - Stays centered regardless of screen size
+ */
+
+
 body {
   font-family: 'Times New Roman', Times, serif;
   background-image: url('images/football.avif'); 
@@ -7,6 +17,13 @@ body {
   font-family: 'Times New Roman', Times, serif;
   }
 
+  /**
+ * Start Screen Styling
+ * - Uses Flexbox to center content both vertically and horizontally.
+ * - Takes up the full viewport height (100vh) to ensure it's centered on the screen.
+ * - Applies a semi-transparent white background for readability over the main background image.
+ * - Adds generous padding and rounded corners for a clean, modern appearance.
+ */
 
   .start-screen {
     display: flex;
@@ -18,7 +35,16 @@ body {
     padding: 40px;
     border-radius: 60px;
   }
-  
+
+  /**
+ * Start Button Styling
+ * - Sets a dark slate gray background with white text for strong contrast.
+ * - Increases font size for better readability and prominence.
+ * - Adds padding for a larger clickable area and better spacing.
+ * - Removes the default border and rounds corners for a modern look.
+ * - Adds a pointer cursor to indicate it's clickable.
+ * - Adds top margin to separate it from the content above.
+ */
   .start-btn {
     background-color: darkslategray;
     color: white;
@@ -30,6 +56,13 @@ body {
     margin-top: 20px;
   }
 
+  /**
+ * Quiz Container Styling
+ * - Sets a maximum width of 900px and centers the container horizontally with margin: 0 auto.
+ * - Adds internal spacing with padding: 20px for layout breathing room.
+ * - Uses Flexbox to arrange child elements in a vertical column.
+ * - Applies a 20px gap between elements for clean spacing.
+ */
 .quiz-container {
   max-width: 900px;
   margin: 0 auto;
@@ -39,12 +72,26 @@ body {
   gap: 20px;
 }
 
+/**
+ * Timer Styling
+ * - Applies bold font weight to emphasize the countdown timer.
+ * - Aligns the timer text to the right side of its container for clear visibility.
+ */
 
 .timer {
   font-weight: bold;
   text-align: right;
 }
 
+/**
+ * Question Box Styling (inside Quiz Container)
+ * - Sets a readable font size of 20px for the quiz question text.
+ * - Applies a light golden yellow background for visual emphasis and contrast.
+ * - Adds padding for spacing inside the box.
+ * - Rounds corners with a 10px border-radius for a soft, modern look.
+ * - Uses normal font weight for better readability.
+ * - Increases line height to 1.6 for improved text spacing.
+ */
 
 .quiz-container .question {
   font-size: 20px;
@@ -82,6 +129,17 @@ body {
   background-color: red;
 }
 
+/**
+ * Footer Styling
+ * - Uses a dark background (#222) with white text for strong contrast.
+ * - Centers the text horizontally.
+ * - Adds vertical padding for spacing above and below the content.
+ * - Applies 'Times New Roman' for classic styling.
+ * - Positions the footer relative to its surrounding elements.
+ * - Adds top margin to separate it from the content above.
+ * - Includes a top border for visual separation and a rounded top edge (12px).
+ */
+
 .footer {
   background-color: #222;
   color: white;
@@ -104,6 +162,18 @@ body {
   font-weight: bold;
   font-size: 18px;
 }
+
+/**
+ * Next Button Styling (inside Quiz Container)
+ * - Uses a dark slate gray background with white text for clear contrast.
+ * - Adds padding for a comfortable clickable area.
+ * - Rounds the corners with a 10px radius for a modern button look.
+ * - Sets the font size to 20px for readability.
+ * - Applies a pointer cursor to indicate interactivity.
+ * - Removes the default border for a cleaner appearance.
+ * - Adds letter spacing (2px) for improved text aesthetics.
+ * - Uses `width: min-content` to size the button just wide enough for its text.
+ */
 
 .quiz-container .next-btn {
   background-color: darkslategray;
@@ -147,7 +217,19 @@ body {
   background-color: lightcoral;
 }
 
-/* Retake Button */
+/**
+ * Retake Quiz Button Styling
+ * - Applies a dark slate gray background with white text for strong visual contrast.
+ * - Adds padding for better clickability and spacing.
+ * - Rounds the button's corners with a 10px border-radius for a polished look.
+ * - Sets the font size to 20px to ensure readability.
+ * - Changes the cursor to a pointer to indicate it's clickable.
+ * - Removes the default border for a cleaner style.
+ * - Adds letter spacing (2px) to space out characters slightly.
+ * - Uses `width: min-content` to fit the button size to its text content.
+ * - Centers the button horizontally using `align-self: center`.
+ */
+
 .retake-btn {
   background-color: darkslategray;
   color: white;
