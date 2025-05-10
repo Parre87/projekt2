@@ -96,4 +96,49 @@ JShint was using during the project to detect errors and potential problems in J
 - Best practices is 100%
 - SEO is 90%. Documents do not have Meta discription which lower the score.
 
+## Technologies used
+
+In building "Football quiz", I've utilised a combination of languages and tools to achieve a clean user experience:
+
+# Languages
+
+- HTML: Structures the content of the web application, ensuring a clear and organized layout.
+- CSS: Handles styling to create a visually appealing, user-friendly, and responsive interface.
+- JavaScript: Adds dynamic functionality and enables real-time updates for an interactive user experience.
+
+# Manual testing
+
+ - All links and buttons are functional
+ - Forms validate input correctly and show helpful error messages
+ - Responsive design works across desktop, tablet, and mobile
+ - No broken images or layout issues
+ - Navigation flows logically and smoothly
+ - Dynamic content updates as expected
+ - No console errors in the browser developer tools
+
+   ## Deployment:
+- The site was deployed to GitHub following the steps below:
+    - In the GitHub repository, navigate to the "Settings" tab.
+    - In the "Pages" menu from the "Source" dropdown list select "Deploy from a Branch".
+    - On the branch section select "Main" Branch and "Root" Folder.
+    - Then go to the "Code" tab and refresh.
+    - It will display a green check when it has been deployed correctly.
+    - On Deployment section check the link for the deploid website.
+    - To add files to the repository you have to write in the command line gitt add and
+      git commit -m. This is to committed" git push
+    - To add new files use " ." - and To add a single file use the pathway to the file eg .index.html or assets/css/style.css 
+
+- The live link can be found here: https://parre87.github.io/projekt2/
+
+    ## Credits:
+  
+  ### Source code
+-  Insights and techniques discussed in [this YouTube videos] (https://www.youtube.com/watch?v=x9AaCfk0qh8) by LIVE BLOGGER were a valuable resource and provided 
+   inspiration for some layout aspects of the project.
+  
+   - Media
+   The background picture of the football field in the quiz is from **freepik** (https://www.freepik.com/free-vector/vector-green-soccer-field-football-field-gridiron_10600327.htm#fromView=keyword&page=1&position=3&uuid=7e38c5db-c816-4888-abf9-b2b532cb23bb&query=Football+Field+Background)
+
+   - Mentor Spencer Barriball who helped me with tips, guidance and finding errors during the project.
+
 
