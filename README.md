@@ -96,11 +96,11 @@ JShint was using during the project to detect errors and potential problems in J
 - Best practices is 100%
 - SEO is 90%. Documents do not have Meta discription which lower the score.
 
-## Technologies used
+# Technologies used
 
 In building "Football quiz", I've utilised a combination of languages and tools to achieve a clean user experience:
 
-# Languages
+## Languages
 
 - HTML: Structures the content of the web application, ensuring a clear and organized layout.
 - CSS: Handles styling to create a visually appealing, user-friendly, and responsive interface.
