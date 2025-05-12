@@ -121,32 +121,33 @@ In building "Football quiz", I've utilised a combination of languages and tools 
  - When I have written comments in commits, I have mostly chosen in the commit message header to write only update.html, update.css, etc. instead of writing everything 
    there, but I have written more in detail in the extended description section instead, which can be written below where it says write commit message.
 
-   # Deployment:
+# Deployment:
 
 - The site was deployed to GitHub following the steps below:
-    - In the GitHub repository, navigate to the "Settings" tab.
-    - In the "Pages" menu from the "Source" dropdown list select "Deploy from a Branch".
-    - On the branch section select "Main" Branch and "Root" Folder.
-    - Then go to the "Code" tab and refresh.
-    - It will display a green check when it has been deployed correctly.
-    - On Deployment section check the link for the deploid website.
-    - To add files to the repository you have to write in the command line gitt add and
-      git commit -m. This is to committed" git push
-    - To add new files use " ." - and To add a single file use the pathway to the file eg .index.html or assets/css/style.css 
+
+- In the GitHub repository, navigate to the "Settings" tab.
+- In the "Pages" menu from the "Source" dropdown list select "Deploy from a Branch".
+- On the branch section select "Main" Branch and "Root" Folder.
+- Then go to the "Code" tab and refresh.
+- It will display a green check when it has been deployed correctly.
+- On Deployment section check the link for the deploid website.
+- To add files to the repository you have to write in the command line gitt add and
+  git commit -m. This is to committed" git push
+- To add new files use " ." - and To add a single file use the pathway to the file eg .index.html or assets/css/style.css 
 
 - The live link can be found here: https://parre87.github.io/projekt2/
 
-    # Credits:
+# Credits:
   
-  ## Source code
+## Source code
   
-    -  Insights and techniques discussed in [this YouTube videos](https://www.youtube.com/watch?v=x9AaCfk0qh8) by LIVE BLOGGER were a valuable resource and provided 
-   inspiration for some layout aspects of the project.
+- Insights and techniques discussed in [this YouTube videos](https://www.youtube.com/watch?v=x9AaCfk0qh8) by LIVE BLOGGER were a valuable resource and provided 
+  inspiration for some layout aspects of the project.
   
-    - The background picture of the football field in the quiz is from [Visit Website](https://www.freepik.com/free-vector/vector-green-soccer-field-football-field-gridiron_10600327.htm#fromView=keyword&page=1&position=3&uuid=7e38c5db-c816-4888-abf9-b2b532cb23bb&query=Football+Field+Background)
+- The background picture of the football field in the quiz is from [Visit Website](https://www.freepik.com/free-vector/vector-green-soccer-field-football-field-gridiron_10600327.htm#fromView=keyword&page=1&position=3&uuid=7e38c5db-c816-4888-abf9-b2b532cb23bb&query=Football+Field+Background)
  
-    - The background picture of the football favicon is from [Visit Website](https://www.iconarchive.com/show/sport-icons-by-martin-berube/Soccer-icon.html)
+- The background picture of the football favicon is from [Visit Website](https://www.iconarchive.com/show/sport-icons-by-martin-berube/Soccer-icon.html)
 
-    - Mentor Spencer Barriball who helped me with tips, guidance and finding errors during the project.
+- Mentor Spencer Barriball who helped me with tips, guidance and finding errors during the project.
 
 
