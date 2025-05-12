@@ -121,7 +121,7 @@ In building "Football quiz", I've utilised a combination of languages and tools 
  - When I have written comments in commits, I have mostly chosen in the commit message header to write only update.html, update.css, etc. instead of writing everything 
    there, but I have written more in detail in the extended description section instead, which can be written below where it says write commit message.
 
-   ## Deployment:
+   # Deployment:
 
 - The site was deployed to GitHub following the steps below:
     - In the GitHub repository, navigate to the "Settings" tab.
@@ -136,9 +136,9 @@ In building "Football quiz", I've utilised a combination of languages and tools 
 
 - The live link can be found here: https://parre87.github.io/projekt2/
 
-    ## Credits:
+    # Credits:
   
-  ### Source code
+  ## Source code
   
     -  Insights and techniques discussed in [this YouTube videos](https://www.youtube.com/watch?v=x9AaCfk0qh8) by LIVE BLOGGER were a valuable resource and provided 
    inspiration for some layout aspects of the project.
