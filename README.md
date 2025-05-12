@@ -115,8 +115,14 @@ In building "Football quiz", I've utilised a combination of languages and tools 
  - Navigation flows logically and smoothly
  - Dynamic content updates as expected
  - No console errors in the browser developer tools
+   
+# Commits
+
+ - When I have written comments in commits, I have mostly chosen in the commit message header to write only update.html, update.css, etc. instead of writing everything 
+   there, but I have written more in detail in the extended description section instead, which can be written below where it says write commit message.
 
    ## Deployment:
+
 - The site was deployed to GitHub following the steps below:
     - In the GitHub repository, navigate to the "Settings" tab.
     - In the "Pages" menu from the "Source" dropdown list select "Deploy from a Branch".
@@ -137,8 +143,9 @@ In building "Football quiz", I've utilised a combination of languages and tools 
     -  Insights and techniques discussed in [this YouTube videos](https://www.youtube.com/watch?v=x9AaCfk0qh8) by LIVE BLOGGER were a valuable resource and provided 
    inspiration for some layout aspects of the project.
   
-   
     - The background picture of the football field in the quiz is from [Visit Website](https://www.freepik.com/free-vector/vector-green-soccer-field-football-field-gridiron_10600327.htm#fromView=keyword&page=1&position=3&uuid=7e38c5db-c816-4888-abf9-b2b532cb23bb&query=Football+Field+Background)
+ 
+    - The background picture of the football favicon is from [Visit Website](https://www.iconarchive.com/show/sport-icons-by-martin-berube/Soccer-icon.html)
 
     - Mentor Spencer Barriball who helped me with tips, guidance and finding errors during the project.
 
