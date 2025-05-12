@@ -171,6 +171,7 @@ function startTimer() {
 
 function selectAnswer(answer) {
     userAnswers[currentQuestionIndex] = answer || 'Not answered';
+    clearInterval(timerInterval);
 
     const options = document.querySelectorAll('.option');
     options.forEach(option => option.disabled = true);
