@@ -70,11 +70,6 @@ const quizData = [
  *   - timerInterval: Stores the interval reference for updating the timer.
  *   - currentQuestionIndex: Tracks the current question being displayed.
  *   - `userAnswers`: Stores the user's answers to each question.
- * 
- * startQuiz() function:
- * - Hides the start screen, shows the quiz container, and hides the result container when the quiz begins.
- * - Resets the quiz state (question index and user answers) for each new quiz attempt.
- * - Calls showQuestion() to display the first question.
  */
 const quizContainer = document.querySelector(".quiz-container");
 const resultContainer = document.querySelector(".quiz-result");
@@ -88,6 +83,13 @@ let timerInterval;
 let currentQuestionIndex = 0;
 let userAnswers = [];
 
+ /**
+ * startQuiz() function:
+ * - Hides the start screen, shows the quiz container, and hides the result container when the quiz begins.
+ * - Resets the quiz state (question index and user answers) for each new quiz attempt.
+ * - Calls showQuestion() to display the first question.
+ */
+     
 function startQuiz() {
     document.getElementById('start-screen').style.display = 'none';
     quizContainer.style.display = 'block';
@@ -128,6 +130,15 @@ function showQuestion() {
 
     startTimer();
 }
+
+/**
+ * Starts the countdown timer for each quiz question.
+ * 
+ * - Sets the timer to 15 seconds.
+ * - Updates the timer display every second.
+ * - If the time runs out, clears the interval and automatically calls `selectAnswer(null)`
+ *   to handle an unanswered question.
+ */
 
 function startTimer() {
     timeLeft = 15;
@@ -185,6 +196,22 @@ nextButton.addEventListener("click", () => {
         showResults();
     }
 });
+
+
+/**
+ * Displays the quiz results after completion.
+ *
+ * - Hides the quiz container and shows the results screen.
+ * - Calculates the user's score by comparing their answers to the correct ones.
+ * - Updates the score display.
+ * - For each question, shows:
+ *   - The question text.
+ *   - The users selected answer (or 'Not answered' if skipped).
+ *   - The correct answer.
+ *   - Applies a visual style (correct/incorrect) to each question block.
+ * - Ensures previous results are cleared before displaying new ones.
+ * - Reveals the "Retake Quiz" button.
+ */
 
 function showResults() {
     quizContainer.style.display = "none";
