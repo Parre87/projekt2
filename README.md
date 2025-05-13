@@ -146,7 +146,7 @@ In building "Football quiz", I've utilised a combination of languages and tools 
   
 - The background picture of the football field in the quiz is from Freepik [Visit Website](https://www.freepik.com/free-vector/vector-green-soccer-field-football-field-gridiron_10600327.htm#fromView=keyword&page=1&position=3&uuid=7e38c5db-c816-4888-abf9-b2b532cb23bb&query=Football+Field+Background)
 
-- Helping me understanding codes (especially javascript) in the website W3chools [Visit Website](https://www.w3schools.com/)
+- Helping me understanding codes (especially javascript) in the website W3schools [Visit Website](https://www.w3schools.com/)
  
 - The background picture of the football favicon is from Iconarchieve [Visit Website](https://www.iconarchive.com/show/sport-icons-by-martin-berube/Soccer-icon.html)
 
