@@ -96,6 +96,13 @@ JShint was using during the project to detect errors and potential problems in J
 - Best practices is 100%
 - SEO is 90%. Documents do not have Meta discription which lower the score.
 
+# Errors
+
+![Retake button](https://github.com/Parre87/projekt2/blob/main/assets/images/error.png)
+
+- retakeQuiz() function was showing error. To fix this i had to implified the quiz retake functionality by replacing the custom retakeQuiz() function with a direct call to 
+  window.location.reload(). This ensures a full page refresh and resets the quiz state reliably.
+
 # Technologies used
 
 In building "Football quiz", I've utilised a combination of languages and tools to achieve a clean user experience:
